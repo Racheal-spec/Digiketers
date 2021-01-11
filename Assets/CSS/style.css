@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.container{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%); 
+    width: 100%;
+}
+.main-div{
+    width: 40%;
+    height: 45vh;
+    border-radius: 8px;
+    background: #FFA17F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F); 
+    background: linear-gradient(to right, #00223E, #FFA17F);
+    position: absolute;
+    left: 70%;
+    transform: translateX(-80%); 
+}
+.main-div h4{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.pay-name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.letter-e{
+    font-family: 'Dancing Script', cursive;
+}
+.pay{
+    font-size: 25px;
+}
+.pay-name h2{
+    font-size: 3rem;
+    color: white;
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-caret-right{
+    font-size: 2rem;
+    color: white;
+}
+.box{
+    /*padding: 1.7rem;*/
+    width: 70px;
+    height: 45px;
+    background-color:#e0deda;
+    text-align: end;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+.valid{
+    text-align: center;
+    color: white;
+}
+.name-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name-holder > h5{
+    margin-bottom: 20px;
+}
+.name-holder > img{
+    width: 20%;
+}
