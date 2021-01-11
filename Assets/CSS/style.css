@@ -1,41 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+body{
+    background-color: rgba(0, 0, 0, 0.356);
+}
 .container{
     position: absolute;
-    top: 30%;
-    transform: translateY(-30%); 
+    top: 20%;
+    transform: translateY(-20%); 
     width: 100%;
 }
 .main-div{
     width: 40%;
-    height: 45vh;
+    min-height: 20vh;
     border-radius: 8px;
-    background: #FFA17F;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #00223E, #FFA17F); 
-    background: linear-gradient(to right, #00223E, #FFA17F);
-    position: absolute;
-    left: 70%;
-    transform: translateX(-80%); 
-}
-.main-div h4{
-    text-align: center;
-    padding-top: 20px;
-    color: white;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+     position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.151);
 }
 .pay-name{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 0 30px;
 }
-.letter-e{
-    font-family: 'Dancing Script', cursive;
-}
-.pay{
-    font-size: 25px;
-}
-.pay-name h2{
-    font-size: 3rem;
-    color: white;
+.pay-img img{
+    width: 50%;
 }
 .arrow{
     display: flex;
@@ -47,7 +39,6 @@
     color: white;
 }
 .box{
-    /*padding: 1.7rem;*/
     width: 70px;
     height: 45px;
     background-color:#e0deda;
@@ -57,16 +48,34 @@
 }
 .valid{
     text-align: center;
-    color: white;
+    color: grey;
+}
+.valid strong{
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+.card-no{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-no p{
+    margin: 0 20px;
+    color: grey;
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 4px;
 }
 .name-holder{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 0 10px;
 }
 .name-holder > h5{
-    margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 .name-holder > img{
-    width: 20%;
+   width: 20%;
 }
